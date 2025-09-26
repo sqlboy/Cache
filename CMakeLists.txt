@@ -6,10 +6,6 @@ project(Cache VERSION 1.0.0 LANGUAGES CXX)
 #---------------------------------------------------------------------------------------
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
-include(AddCatchTest)   # Function add_catch_test()
-include(EnableCoverage) # Function target_enable_coverage()
-include(EnableWarnings) # Function target_enable_warnings()
-
 #---------------------------------------------------------------------------------------
 # set default build to debug
 #---------------------------------------------------------------------------------------
